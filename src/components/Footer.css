@@ -1,0 +1,20 @@
+.FooterBox {
+  margin: auto;
+  margin-top: 10px;
+  width: max-content;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 3px rgba(255, 255, 255, 0.483);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.483);
+  border: solid 3px rgba(59, 53, 113, 0.898);
+  color: black;
+}

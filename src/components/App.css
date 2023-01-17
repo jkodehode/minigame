@@ -1,0 +1,88 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.GameBox {
+  background-image: url("../images/bg-triangle.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.GameBoxTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SelectorBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  margin: 20px 20px;
+}
+
+.SelectorBox:hover {
+  opacity: 0.8;
+  scale: 1.1;
+  border-color: rgb(84, 84, 84);
+}
+
+.PaperBox {
+  border: blue solid 25px;
+}
+
+.ScissorBox {
+  border: rgb(255, 225, 0) solid 25px;
+}
+
+.RockBox {
+  border: rgba(255, 0, 13, 0.852) solid 25px;
+  margin: auto;
+}
+
+.SelectedBoxBig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.PaperHandBig {
+  align-self: center;
+  justify-self: center;
+  scale: 1.3;
+}
+
+.BlueBig {
+  border: blue solid 35px;
+}
+
+.enterGame {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.returnBtn,
+.returnBtn:active,
+.returnBtn:link {
+  align-self: center;
+  justify-self: center;
+  font-size: 35px;
+  color: white;
+}
